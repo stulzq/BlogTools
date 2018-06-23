@@ -85,9 +85,9 @@ namespace dotnet_imooc
 
                     Console.WriteLine("上传成功！");
                 }
-                catch (Exception)
+                catch (Exception e)
                 {
-                    Console.WriteLine("处理失败！");
+                    Console.WriteLine($"处理失败！{e.Message}");
                     return 1;
                 }
             }
