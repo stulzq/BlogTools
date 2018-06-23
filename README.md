@@ -132,11 +132,13 @@ c.随便选择一张图片上传
 
 d.查看这次请求里的Cookie，并保存到文本文件中
 
-演示：
+提取Cookie演示：
 
 ![Aliyun Cookie](assets/aliyun-cookie.png)
 
 >只复制图中的括号中的数据
+
+操作演示：
 
 ![ys](assets/aliyun-ys.gif)
 
@@ -182,11 +184,13 @@ c.随便选择一张图片上传
 
 d.查看这次请求里的Cookie，并保存到文本文件中
 
-演示：
+提取Cookie演示：
 
 ![Imooc Cookie](assets/imooc-cookie.png)
 
 >只复制图中的括号中的数据
+
+操作演示：
 
 ![ys](assets/imooc-ys.gif)
 
@@ -237,11 +241,13 @@ d.查看这次请求里的Cookie，并保存到文本文件中
 
 e.根据本次上传图片请求url中的参数提取uin码和csrf码
 
-演示：
+提取Cookie演示：
 
 ![Tcloud Cookie](assets/tcloud-cookie.png)
 
 >只复制图中的括号中的数据
+
+操作演示：
 
 ![ys](assets/tcloud-ys.gif)
 
