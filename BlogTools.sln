@@ -3,13 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet-aliyun", "dotnet-aliyun\dotnet-aliyun.csproj", "{ECCDFF26-4032-4F00-9031-A1B2252F0133}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet-aliyun", "dotnet-aliyun\dotnet-aliyun.csproj", "{ECCDFF26-4032-4F00-9031-A1B2252F0133}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet-imooc", "dotnet-imooc\dotnet-imooc.csproj", "{6311B476-94A2-4B1B-A408-80F5FDC71E8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet-imooc", "dotnet-imooc\dotnet-imooc.csproj", "{6311B476-94A2-4B1B-A408-80F5FDC71E8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet-tcloud", "dotnet-tcloud\dotnet-tcloud.csproj", "{F2BA39F2-1540-4933-9096-E7D3991A3D8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet-tcloud", "dotnet-tcloud\dotnet-tcloud.csproj", "{F2BA39F2-1540-4933-9096-E7D3991A3D8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XC.BlogTools.Util", "XC.BlogTools.Util\XC.BlogTools.Util.csproj", "{90D91C9C-7292-4797-9CCB-AD6C2361E0D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XC.BlogTools.Util", "XC.BlogTools.Util\XC.BlogTools.Util.csproj", "{90D91C9C-7292-4797-9CCB-AD6C2361E0D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{87F91941-9AAC-4A30-B652-9279E4961176}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
