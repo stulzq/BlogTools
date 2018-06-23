@@ -17,6 +17,8 @@
     <PackageLicenseUrl>https://github.com/stulzq/BlogTools/blob/master/LICENSE</PackageLicenseUrl>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <Description>博文快速多渠道发布工具包，支持博客园、阿里云栖社区、腾讯云+社区、慕课网手记 4种渠道。本工具支持腾讯云+社区。</Description>
+    <Version>1.0.1</Version>
+    <PackageReleaseNotes>修复保存文件名后缀不正确</PackageReleaseNotes>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

@@ -101,7 +101,7 @@ namespace dotnet_tcloud
             }
 
             var newContent = imgProc.Replace(replaceDic, fileContent);
-            string newFileName = filePath.Substring(0, filePath.LastIndexOf('.')) + "-imooc" + fileExtension;
+            string newFileName = filePath.Substring(0, filePath.LastIndexOf('.')) + "-tcloud" + fileExtension;
             File.WriteAllText(newFileName, newContent, fileEncoding);
 
             Console.WriteLine($"处理完成！文件保存在：{newFileName}");
