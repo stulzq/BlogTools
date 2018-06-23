@@ -8,9 +8,22 @@
     <PackAsTool>true</PackAsTool>
     <!-- Optional performance setting - enables tiered JIT compilation-->
     <TieredCompilation>true</TieredCompilation>
+    <Authors>stulzq</Authors>
+    <Copyright>CopyRight 2018 stulzq</Copyright>
+    <PackageProjectUrl>https://github.com/stulzq/BlogTools</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/stulzq/BlogTools.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>慕课网手记</PackageTags>
+    <PackageLicenseUrl>https://github.com/stulzq/BlogTools/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Description>博文快速多渠道发布工具包，支持博客园、阿里云栖社区、腾讯云+社区、慕课网手记 4种渠道。本工具支持慕课网手记。</Description>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <LangVersion>7.1</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
 

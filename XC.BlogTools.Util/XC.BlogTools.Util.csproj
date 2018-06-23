@@ -1,7 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>stulzq</Authors>
+    <Copyright>CopyRight 2018 stulzq</Copyright>
+    <PackageProjectUrl>https://github.com/stulzq/BlogTools</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/stulzq/BlogTools.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>FileUpload,MarkDown Image Process</PackageTags>
+    <PackageLicenseUrl>https://github.com/stulzq/BlogTools/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Description>客户端文件上传、MarkDown文件图片处理。</Description>
   </PropertyGroup>
 
   <ItemGroup>
