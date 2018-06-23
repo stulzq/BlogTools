@@ -34,7 +34,7 @@ BlogTools工具包就是为了解决上述问题，它会解析Markdown文件中
 dotnet-aliyun | 阿里云栖社区  |  [![Latest version](https://img.shields.io/nuget/v/dotnet-aliyun.svg?style=flat-square)](https://www.nuget.org/packages/dotnet-aliyun/)
 dotnet-imooc  | 慕课网手记  | [![Latest version](https://img.shields.io/nuget/v/dotnet-imooc.svg?style=flat-square)](https://www.nuget.org/packages/dotnet-imooc/) 
 dotnet-tcloud  | 腾讯云+社区  | [![Latest version](https://img.shields.io/nuget/v/dotnet-tcloud.svg?style=flat-square)](https://www.nuget.org/packages/dotnet-tcloud/) 
-dotnet-cnblog  | 当面付SDK的ASP.NET Core组件，为了能更好配合ASP.NET Core 使用  | [![Latest version](https://img.shields.io/nuget/v/dotnet-cnblog.svg?style=flat-square)](https://www.nuget.org/packages/dotnet-cnblog/) 
+dotnet-cnblog  | 博客园 | [![Latest version](https://img.shields.io/nuget/v/dotnet-cnblog.svg?style=flat-square)](https://www.nuget.org/packages/dotnet-cnblog/) 
 
 ## 三.安装
 
