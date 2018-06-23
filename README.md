@@ -2,7 +2,7 @@
 
 博文快速多渠道发布工具包，支持博客园、阿里云栖社区、腾讯云+社区、慕课网手记 4种渠道。
 
-## 二.作用
+## 二.工具的作用
 
 >本工具只适用于用Markdown写博客或者文章的人群，如果你还不会请花一个小时的时间去熟悉，你就能感受到Markdown给你带来的好处了。
 
@@ -27,7 +27,7 @@ BlogTools工具包就是为了解决上述问题，它会解析Markdown文件中
 
 主要就是减少你到每个渠道去上传文件的操作。你只需复制转换以后的内容，粘贴到对于的渠道即可完成发布。
 
-## 二.各个渠道工具包
+## 三.各个渠道工具包
 
 工具名  | 说明 | 版本号 
 -------- | :------------  | :------------ 
@@ -36,7 +36,7 @@ dotnet-imooc  | 慕课网手记  | [![Latest version](https://img.shields.io/nug
 dotnet-tcloud  | 腾讯云+社区  | [![Latest version](https://img.shields.io/nuget/v/dotnet-tcloud.svg?style=flat-square)](https://www.nuget.org/packages/dotnet-tcloud/) 
 dotnet-cnblog  | 博客园 | [![Latest version](https://img.shields.io/nuget/v/dotnet-cnblog.svg?style=flat-square)](https://www.nuget.org/packages/dotnet-cnblog/) 
 
-## 三.安装
+## 四.安装
 
 使用本系列工具需要你的pc具备 .NET Core 2.1版本 SDK 环境或者更高版本。且完全支持跨平台，你可以在.NET Core 支持的任意Linux发行版、Windows、MAC OSX上使用。
 
@@ -78,7 +78,7 @@ dotnet tool install -g dotnet-cnblog
 ````
 ![Cnblog Install](assets/cnblog-install.png)
 
-## 四.卸载
+## 五.卸载
 
 卸载工具的命令格式为：
 
@@ -86,7 +86,7 @@ dotnet tool install -g dotnet-cnblog
 dotnet tool uninstall -g <工具名称>
 ````
 
-## 五.使用
+## 六.使用
 
 本工具主要面向写**技术博客**的人员，所以工具在某些细节的地方并未做处理，比如“登录”。需要用户自己登录以后，提取Cookie给工具使用。
 
@@ -258,11 +258,11 @@ e.根据本次上传图片请求url中的参数提取uin码和csrf码
 
 >特殊说明，关于使用js代码 `document.cookie` 获取cookie，经测试腾讯云+社区和慕课网手记可以，阿里云栖社区js获取到的cookie无效，因为必须的cookie项设置为了httponly，js无法获取。
 
-## 六.隐私
+## 七.隐私
 
 本工具不会收集你的任意数据，且代码完全开源。
 
-## 七.贡献代码
+## 八.贡献代码
 
 如果你有问题或者建议，欢迎提交 pull request 贡献代码。
 
