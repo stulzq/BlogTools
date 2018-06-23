@@ -251,13 +251,16 @@ e.根据本次上传图片请求url中的参数提取uin码和csrf码
 
 ![ys](assets/tcloud-ys.gif)
 
+
 ### 4.博客园 工具的使用
 
 因博客园工具本系列最早的一个工具，使用方法最简单便捷，无需自己提取cookie，是单独开发。详细的使用说明请移步查看：https://github.com/stulzq/CnBlogPublishTool
 
+>特殊说明，关于使用js代码 `document.cookie` 获取cookie，经测试腾讯云+社区和慕课网手记可以，阿里云栖社区js获取到的cookie无效，因为必须的cookie项设置为了httponly，js无法获取。
+
 ## 六.隐私
 
-本工具完全开源，不会收集你的任意数据。
+本工具不会收集你的任意数据，且代码完全开源。
 
 ## 七.贡献代码
 
